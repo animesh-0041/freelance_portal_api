@@ -1,15 +1,22 @@
 {
-  "name": "backend",
+  "name": "freelance_portal_api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server":"json-server --watch db.json port 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/animesh-0041/freelance_portal_api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/animesh-0041/freelance_portal_api/issues"
+  },
+  "homepage": "https://github.com/animesh-0041/freelance_portal_api#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
